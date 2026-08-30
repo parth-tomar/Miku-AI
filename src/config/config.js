@@ -14,8 +14,8 @@ module.exports = {
   discordToken: required('DISCORD_TOKEN'),
   clientId: required('CLIENT_ID'),
   guildId: process.env.GUILD_ID || null,
-  lebyyApiToken: required('LEBYY_API_TOKEN'),
-  botOwnerName: process.env.BOT_OWNER_NAME || 'Unknown',
+  lebyyApiToken: required('MIKU_API_TOKEN'),
+  botOwnerName: process.env.BOT_OWNER_NAME || 'Shady',
   defaultLanguage: process.env.DEFAULT_LANGUAGE || 'en',
   botName: 'Miku AI',
 };
