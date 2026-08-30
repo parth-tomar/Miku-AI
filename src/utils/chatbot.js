@@ -2,10 +2,10 @@ const smartestchatbot = require('smartestchatbot');
 const config = require('../config/config');
 const persona = require('../config/persona');
 
-const client = new smartestchatbot.Client(config.lebyyApiToken);
+const client = new smartestchatbot.Client(config.mikuApiToken);
 
 /**
- * Sends a message to the SmartestChatBot API and returns Miku's reply.
+ * Sends a message to the API and returns Miku's reply.
  *
  * @param {string} message   The user's message content.
  * @param {string} userId    A stable numeric-ish ID for the speaker (Discord user ID works).
@@ -27,7 +27,7 @@ async function getReply(message, userId, language = config.defaultLanguage) {
     );
     return reply;
   } catch (err) {
-    console.error('[Miku AI] SmartestChatBot API error:', err);
+    console.error('[Miku AI] API error:', err);
     throw new Error('Miku is having trouble thinking right now. Try again in a moment.');
   }
 }
