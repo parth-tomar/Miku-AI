@@ -1,0 +1,32 @@
+{
+  "name": "miku-ai",
+  "version": "4.5.0",
+  "description": "Miku AI - a multilingual Discord chatbot",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "chatbot",
+    "ai",
+    "miku"
+  ],
+  "author": "Parth",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "smartestchatbot": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
