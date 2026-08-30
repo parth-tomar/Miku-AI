@@ -32,7 +32,7 @@ A multilingual Discord chatbot built on. Mention Miku or reply to one of her mes
    cp .env.example .env
    ```
 
-   Fill in `DISCORD_TOKEN`, `CLIENT_ID`, and `LEBYY_API_TOKEN` at minimum. `GUILD_ID` is optional — set it during development so slash commands register instantly to one server instead of waiting up to an hour for a global rollout.
+   Fill in `DISCORD_TOKEN`, `CLIENT_ID`, and `MIKU_API_TOKEN` at minimum. `GUILD_ID` is optional — set it during development so slash commands register instantly to one server instead of waiting up to an hour for a global rollout.
 
 4. **Deploy slash commands**
 
